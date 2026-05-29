@@ -34,6 +34,7 @@ nav, p, section, article {
 
 .socialmedia a {
     text-decoration: none;
+    ;
 }
 
 .hero h1{
@@ -69,3 +70,12 @@ h1{
     background-color: var(--accent1-color);
     color:#fff;
 }
+
+footer {
+    display: flex;
+}
+
+footer p {
+    text-align: center;
+}
+
