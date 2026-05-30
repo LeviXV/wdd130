@@ -38,8 +38,9 @@ nav, p, section, article {
 
 nav ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     list-style: none;
+    gap : 5px;
 }
 
 nav a{
@@ -61,10 +62,6 @@ nav a{
 .socialmedia{
     display: flex;
     gap: 15px;
-}
-
-.socialmedia img{
-    width: 35px;
 }
 
 .hero h1{
