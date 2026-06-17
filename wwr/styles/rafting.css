@@ -276,7 +276,7 @@ fieldset label {
 }
 
 .contact-form button:hover {
-    background-color: #077507;
+    background-color: #0b770b;
 }
 
 
@@ -313,4 +313,25 @@ footer p {
     gap: 5px;
     width: 100%;
     height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #055a05;
+    color: white;
+}
+
+.container section h3 {
+    text-align: center;
 }
